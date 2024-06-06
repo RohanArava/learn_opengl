@@ -55,9 +55,21 @@
     <None Include="texture_shader.fs">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="lightingShader.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="lightingShader.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="lightCubeShader.fs">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Image Include="container.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="dough.png">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>

@@ -31,6 +31,9 @@
     <ClInclude Include="Utils.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="lightCubeShader.fs" />
+    <None Include="lightingShader.fs" />
+    <None Include="lightingShader.vs" />
     <None Include="simple_fragment_shader.fs" />
     <None Include="simple_vertex_shader.vs" />
     <None Include="texture_shader.fs" />
@@ -38,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="container.jpg" />
+    <Image Include="dough.png" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
